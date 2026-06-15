@@ -28,12 +28,12 @@
 
 | color_tag | 顏色 | 用於 |
 |-----------|------|------|
-| `blue` | 藍 | 陽性名詞 der |
-| `red` | 紅 | 陰性名詞 die |
-| `green` | 綠 | 中性名詞 das |
-| `verb` | 紫 | 動詞 |
-| `adj` | 橘 | 形容詞 |
-| `adv` | 青 | 副詞 |
-| `prep` | 橙 | 介系詞 |
-| `phrase` | 天藍 | 片語 |
-| `other` | 灰 | 其他 |
+| `blue` | ![der](https://img.shields.io/badge/der-2f80ed?style=flat-square) | 陽性名詞 der |
+| `red` | ![die](https://img.shields.io/badge/die-eb5757?style=flat-square) | 陰性名詞 die |
+| `green` | ![das](https://img.shields.io/badge/das-27ae60?style=flat-square) | 中性名詞 das |
+| `verb` | ![verb](https://img.shields.io/badge/Verb-9b51e0?style=flat-square) | 動詞 |
+| `adj` | ![adj](https://img.shields.io/badge/Adjektiv-f2994a?style=flat-square) | 形容詞 |
+| `adv` | ![adv](https://img.shields.io/badge/Adverb-00b8a9?style=flat-square) | 副詞 |
+| `prep` | ![prep](https://img.shields.io/badge/Pr%C3%A4position-e08a1e?style=flat-square) | 介系詞 |
+| `phrase` | ![phrase](https://img.shields.io/badge/Phrase-2d9cdb?style=flat-square) | 片語 |
+| `other` | ![other](https://img.shields.io/badge/other-555555?style=flat-square) | 其他 |

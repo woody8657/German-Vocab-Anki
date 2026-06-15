@@ -18,7 +18,9 @@ A clean, study-focused **Anki note type** for German vocabulary: the front shows
 ## ✨ Features
 
 - **Gender recall built in** — the front shows the word **only** (neutral color), so you must recall the article yourself. The back reveals `der / die / das` in color.
-- **Color by category** — `der` blue · `die` red · `das` green · verbs purple · adjectives orange · adverbs teal · prepositions amber · phrases sky-blue.
+- **Color-coded by gender / category** — the article (or part of speech) is shown in color, so gender sticks visually:
+
+  ![der](https://img.shields.io/badge/der-2f80ed?style=flat-square) ![die](https://img.shields.io/badge/die-eb5757?style=flat-square) ![das](https://img.shields.io/badge/das-27ae60?style=flat-square) &nbsp; ![Verb](https://img.shields.io/badge/Verb-9b51e0?style=flat-square) ![Adjective](https://img.shields.io/badge/Adjective-f2994a?style=flat-square) ![Adverb](https://img.shields.io/badge/Adverb-00b8a9?style=flat-square) ![Preposition](https://img.shields.io/badge/Preposition-e08a1e?style=flat-square) ![Phrase](https://img.shields.io/badge/Phrase-2d9cdb?style=flat-square)
 - **Example sentence box** — each card shows a natural example sentence with the **target word in bold**, plus a translation.
 - **Grammar grid** — plural, 3rd-person singular, part of speech, gender — shown only when present.
 - **Perfekt (perfect tense)** — a dedicated field for verbs (e.g. `ist gegangen`, `hat gegessen`), highlighted in purple.
