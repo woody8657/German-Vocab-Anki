@@ -1,0 +1,26 @@
+<div class="card-back {{color_tag}}">
+  {{#gender}}<div class="gender-badge">{{article}} {{word}}</div>{{/gender}}
+  {{^gender}}<div class="gender-badge">{{word}}</div>{{/gender}}
+
+  <div class="meaning"><span class="zh">{{chinese}}</span>{{#english}}<span class="sep"> · </span><span class="en">{{english}}</span>{{/english}}</div>
+
+  {{#sentence_de}}
+  <div class="sentence-block">
+    <div class="sentence-de">{{sentence_de}}</div>
+    {{#sentence_zh}}<div class="sentence-zh">{{sentence_zh}}</div>{{/sentence_zh}}
+    <div class="audio">{{tts de_DE:sentence_de}}</div>
+  </div>
+  {{/sentence_de}}
+
+  <div class="grammar-grid">
+    {{#plural}}<div class="grammar-item"><span class="g-label">Plural</span><span class="g-value">die {{plural}}</span></div>{{/plural}}
+    {{#conjugation_3sg}}<div class="grammar-item"><span class="g-label">3. Person Sg.</span><span class="g-value">{{conjugation_3sg}}</span></div>{{/conjugation_3sg}}
+    {{#perfekt}}<div class="grammar-item perfekt"><span class="g-label">Perfekt</span><span class="g-value">{{perfekt}}</span></div>{{/perfekt}}
+    {{#pos}}<div class="grammar-item"><span class="g-label">Wortart</span><span class="g-value">{{pos}}</span></div>{{/pos}}
+    {{#gender}}<div class="grammar-item"><span class="g-label">Genus</span><span class="g-value">{{gender}}</span></div>{{/gender}}
+  </div>
+
+  {{#phrase}}<div class="phrase-block"><span class="g-label">Ausdruck</span> {{phrase}}</div>{{/phrase}}
+  {{#confusion_note}}<div class="note">⚠️ {{confusion_note}}</div>{{/confusion_note}}
+  {{#frequency_tag}}<div class="frequency">{{frequency_tag}}</div>{{/frequency_tag}}
+</div>

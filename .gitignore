@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Anki collection / personal data (never commit these)
+collection.anki2
+collection.anki2-*
+*.anki2
+backups/
+*.colpkg
+
+# Keep .apkg exports allowed — comment the next line out if you DON'T want to commit them
+# *.apkg

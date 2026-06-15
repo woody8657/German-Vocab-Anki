@@ -1,0 +1,102 @@
+.card {
+  font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+  color: #222222;
+  background: #fafafa;
+  padding: 16px;
+}
+
+/* ---------- Front (neutral color: do NOT reveal gender) ---------- */
+.card-front .word-line {
+  font-size: 42px;
+  font-weight: 700;
+  color: #333333;
+  margin: 48px 0;
+}
+
+/* ---------- Back: gender badge ---------- */
+.gender-badge {
+  display: inline-block;
+  font-size: 34px;
+  font-weight: 700;
+  padding: 6px 20px;
+  border-radius: 14px;
+  margin-bottom: 12px;
+  background: rgba(0,0,0,0.05);
+}
+.blue   .gender-badge { color: #2f80ed; }
+.red    .gender-badge { color: #eb5757; }
+.green  .gender-badge { color: #27ae60; }
+.verb   .gender-badge { color: #9b51e0; }
+.adj    .gender-badge { color: #f2994a; }
+.phrase .gender-badge { color: #2d9cdb; }
+.adv    .gender-badge { color: #00b8a9; }
+.prep   .gender-badge { color: #e08a1e; }
+.other  .gender-badge { color: #555555; }
+
+.meaning { font-size: 22px; margin: 4px 0 14px; }
+.meaning .zh { font-weight: 700; }
+.meaning .en { color: #888888; }
+.meaning .sep { color: #cccccc; }
+
+/* ---------- Example sentence box ---------- */
+.sentence-block {
+  background: #ffffff;
+  border-left: 4px solid #2f80ed;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin: 16px auto;
+  max-width: 460px;
+  text-align: left;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+.blue   .sentence-block { border-left-color: #2f80ed; }
+.red    .sentence-block { border-left-color: #eb5757; }
+.green  .sentence-block { border-left-color: #27ae60; }
+.verb   .sentence-block { border-left-color: #9b51e0; }
+.adj    .sentence-block { border-left-color: #f2994a; }
+.phrase .sentence-block { border-left-color: #2d9cdb; }
+.adv    .sentence-block { border-left-color: #00b8a9; }
+.prep   .sentence-block { border-left-color: #e08a1e; }
+.sentence-de { font-size: 21px; color: #333333; }
+.sentence-de b { color: #111111; font-weight: 700; }
+.sentence-zh { font-size: 16px; color: #777777; margin-top: 5px; }
+.audio { margin-top: 6px; }
+
+/* ---------- Grammar grid ---------- */
+.grammar-grid {
+  display: flex; flex-wrap: wrap; justify-content: center;
+  gap: 8px; margin: 14px auto; max-width: 440px;
+}
+.grammar-item {
+  background: #ffffff; border: 1px solid #ececec; border-radius: 10px;
+  padding: 6px 14px; min-width: 84px;
+}
+.g-label { display: block; color: #999999; font-size: 12px; }
+.g-value { font-weight: 600; color: #333333; font-size: 16px; }
+
+.phrase-block { font-size: 17px; margin: 10px auto; color: #444444; max-width: 460px; }
+.note { font-size: 15px; color: #c0392b; margin: 10px auto; max-width: 460px; }
+.frequency { font-size: 12px; color: #aaaaaa; margin-top: 10px; text-transform: uppercase; letter-spacing: 1.5px; }
+
+/* ---------- Dark mode ---------- */
+.nightMode.card, .nightMode .card { background: #2b2b2b; color: #dddddd; }
+.nightMode .card-front .word-line { color: #eeeeee; }
+.nightMode .gender-badge { background: rgba(255,255,255,0.08); }
+.nightMode .meaning .en { color: #aaaaaa; }
+.nightMode .sentence-block { background: #383838; box-shadow: none; }
+.nightMode .sentence-de { color: #eeeeee; }
+.nightMode .sentence-de b { color: #ffffff; }
+.nightMode .sentence-zh { color: #aaaaaa; }
+.nightMode .grammar-item { background: #383838; border-color: #4a4a4a; }
+.nightMode .g-value { color: #eeeeee; }
+
+/* ---------- Perfekt emphasis (verbs, purple to match .verb) ---------- */
+.grammar-item.perfekt { width: 100%; background: #f4effb; border-color: #e2d6f6; }
+.grammar-item.perfekt .g-label { color: #9b7cc8; }
+.grammar-item.perfekt .g-value { color: #7b3fc4; font-weight: 700; }
+.nightMode .grammar-item.perfekt { background: #3a3350; border-color: #4d4268; }
+.nightMode .grammar-item.perfekt .g-label { color: #b89fe0; }
+.nightMode .grammar-item.perfekt .g-value { color: #cbabf2; }

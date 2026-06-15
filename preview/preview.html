@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>German Vocab Anki — Preview</title>
+<link rel="stylesheet" href="../template/style.css">
+<style>
+  body { background:#e9eaee; margin:0; padding:28px;
+         display:flex; flex-wrap:wrap; gap:24px; justify-content:center;
+         font-family:-apple-system,"Helvetica Neue",Arial,sans-serif; }
+  .preview-card { width:360px; border-radius:14px; overflow:hidden;
+                  box-shadow:0 4px 16px rgba(0,0,0,.15); }
+  .preview-label { width:100%; text-align:center; color:#666; font-size:13px;
+                   margin:-8px 0 0; }
+  /* the .card padding/background comes from ../template/style.css */
+</style>
+</head>
+<body>
+
+  <!-- FRONT: article hidden, neutral color -->
+  <div class="preview-card"><div class="card">
+    <div class="card-front"><div class="word-line">Bank</div></div>
+  </div></div>
+
+  <!-- BACK: feminine noun (red) + confusion note -->
+  <div class="preview-card"><div class="card">
+    <div class="card-back red">
+      <div class="gender-badge">die Bank</div>
+      <div class="meaning"><span class="zh">銀行；長椅</span><span class="sep"> · </span><span class="en">bank; bench</span></div>
+      <div class="sentence-block">
+        <div class="sentence-de">Ich gehe zur <b>Bank</b>.</div>
+        <div class="sentence-zh">我去銀行。</div>
+        <div class="audio">🔊</div>
+      </div>
+      <div class="grammar-grid">
+        <div class="grammar-item"><span class="g-label">Plural</span><span class="g-value">die Banken</span></div>
+        <div class="grammar-item"><span class="g-label">Wortart</span><span class="g-value">Noun</span></div>
+        <div class="grammar-item"><span class="g-label">Genus</span><span class="g-value">feminine</span></div>
+      </div>
+      <div class="note">⚠️ die Bank 可指「銀行」或「長椅」，看語境。</div>
+      <div class="frequency">normal</div>
+    </div>
+  </div></div>
+
+  <!-- BACK: verb (purple) with Perfekt -->
+  <div class="preview-card"><div class="card">
+    <div class="card-back verb">
+      <div class="gender-badge">gehen</div>
+      <div class="meaning"><span class="zh">走；去</span><span class="sep"> · </span><span class="en">go</span></div>
+      <div class="sentence-block">
+        <div class="sentence-de">Ich <b>gehe</b> nach Hause.</div>
+        <div class="sentence-zh">我回家。</div>
+        <div class="audio">🔊</div>
+      </div>
+      <div class="grammar-grid">
+        <div class="grammar-item"><span class="g-label">3. Person Sg.</span><span class="g-value">er geht</span></div>
+        <div class="grammar-item perfekt"><span class="g-label">Perfekt</span><span class="g-value">ist gegangen</span></div>
+        <div class="grammar-item"><span class="g-label">Wortart</span><span class="g-value">Verb</span></div>
+      </div>
+      <div class="note">⚠️ 不規則：Perfekt 用 sein。</div>
+      <div class="frequency">high</div>
+    </div>
+  </div></div>
+
+</body>
+</html>
