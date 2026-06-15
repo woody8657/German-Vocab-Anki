@@ -2,7 +2,7 @@
 
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 ![made for Anki](https://img.shields.io/badge/made%20for-Anki-2f80ed.svg)
-![Deutsch A1](https://img.shields.io/badge/Deutsch-A1-eb5757.svg)
+![German](https://img.shields.io/badge/language-German-eb5757.svg)
 
 A clean, study-focused **Anki note type** for German vocabulary: the front shows the word **alone** to *train gender recall*, and the back reveals `der / die / das` in color — with example sentences, the **Perfekt** tense, and built-in audio.
 
